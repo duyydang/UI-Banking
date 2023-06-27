@@ -7,6 +7,8 @@ mixin AssetHelper{
   static const String iconMoney = 'assets/icons/icon_money.png';
   static const String iconAva = 'assets/icons/icon_ava.png';
   static const String iconMenu = 'assets/icons/icon_menu.png';
+  static const String iconUber = 'assets/icons/icon_uber.png';
+  static const String iconNike = 'assets/icons/icon_nike.png';
 
   static const String imgSplashScreen = 'assets/images/image_splash_screen.png';
 }

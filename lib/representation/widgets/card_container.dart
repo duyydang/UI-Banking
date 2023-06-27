@@ -32,32 +32,32 @@ class CardContainer extends StatelessWidget {
               top: 35,
               right: 21,
               child: ImageHelper.loadFromAsset(AssetHelper.iconMaterCard)),
-          Positioned(
+          const Positioned(
             top: 40,
             left: 29,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
+                Text(
                   'CARD NUMBER',
                   style: TextStyle(
                     color: Colors.white,
                   ),
                 ),
-                const Text(
+                Text(
                   '**** **** **** 1425',
                   style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
                       fontSize: 23),
                 ),
-                const SizedBox(
+                SizedBox(
                   height: 48,
                 ),
                 Row(
-                  children: const [
+                  children: [
                     Text(
-                      'CARD HOLDERNAME',
+                      'CARD HOLDER NAME',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 15,
@@ -74,18 +74,18 @@ class CardContainer extends StatelessWidget {
                   ],
                 ),
                 Row(
-                  children: const [
+                  children: [
                     Text(
-                      'Amanda Alex',
+                      'LUONG DUY DANG',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(width: 72),
+                    SizedBox(width: 15),
                     Text(
-                      '03-01-2023',
+                      '23-01-2023',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,
